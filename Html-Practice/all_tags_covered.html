@@ -5,27 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p>small {
+            color: red;
+
+        }
+
+        .paragraph {
+            background-color: bisque;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: smaller;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body class="body-tag">
+    <!-- address tag -->
+<address>
+    Lorem ipsum dolor sit amet, <br>
+    Lorem, ipsum, <br>
+    Lorem, <br>
+    Lorem ipsum dolor sit amet consectetur. <br>
+
+</address>
+
+    <!-- Heading tags -->
+    <h1 title="Extra Large Text">Heading H1</h1>
+    <h2 title="Large Text">Heading h2</h2>
+    <h3 title="Medium Text">Heading h3</h3>
+    <h4 title="Normal Text">Heading h4</h4>
+    <h5 title="Small Text">Heading h5</h5>
+    <h6 title="Small Text">Heading h6</h6>
+
     <h3 style="color: grey;">Practice</h3>
 
-    <p>Lorem ipsum <strong>Raj</strong> dolor sit amet, <em>consectetur</em> adipisicing elit. <small>Commodi</small>
+    <!-- Formatting tags -->
+    <p class="paragraph">Lorem ipsum <strong>Uses of Stong tag</strong> dolor sit amet, <em>use of emphasis tag</em>
+        adipisicing elit. <small>Using small tag</small>
         neque veniam praesentium soluta voluptatibus ipsum incidunt molestiae. Porro voluptas autem at cumque natus
-        <mark>praesentium</mark> sed sequi obcaecati <del>corporis</del>. <ins>Iste</ins> in nemo aliquid, id, quis
+        <mark>using mark tag</mark> sed sequi obcaecati <del>using delete tag</del>. <ins>Using insert tag</ins> in nemo
+        aliquid, id, quis
         corporis, repudiandae odit sequi veniam veritatis beatae quisquam ullam corrupti suscipit. Officia incidunt et
-        quos consectetur!</p>
+        quos consectetur!
+    </p>
 
-    <p>Quotation
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <q>Tempora laborum</q>, <abbr
-            title="For practice only">deleniti</abbr> rem cupiditate quasi ipsa animi optio id nam incidunt eaque dicta
+    <p class="paragraph">Quotation
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <q>Tempora laborum</q>, <abbr title="For practice only">deleniti</abbr> rem cupiditate quasi ipsa animi optio id nam incidunt eaque dicta
         mollitia accusantium illo necessitatibus. Architecto facere rem incidunt.
     </p>
 
+    <!-- images tag -->
     <h4>Image</h4>
-    <img style="width: 300px; height: 200px;" src="src/img1.jpeg" alt="Image of river">
+    <img src="src/img1.jpeg" alt="Image of river" width="300" height="200">
+
+    <h4><a href="https://www.google.com/">Click here to search</a></h4>
 
 
+    <!-- ordered and unordered tags -->
     <ol>
         <li>Option of ol</li>
         <li>Option of ol</li>
@@ -34,13 +71,26 @@
 
     </ol>
 
-        <ul>
+    <ul>
         <li>Option of ul</li>
         <li>Option of ul</li>
         <li>Option of ul</li>
         <li>Option of ul</li>
 
     </ul>
+
+
+    <!-- blockquote tag -->
+    <p>Use of blockquote</p>
+    <blockquote>
+        Lorem ipsum <q>Using quotation tag</q> dolor sit amet consectetur adipisicing elit. Soluta eaque incidunt quibusdam aut assumenda, odit
+        distinctio, molestiae voluptates hic fuga quo ipsum natus commodi amet beatae facere at animi Lorem ipsum dolor,
+        sit amet consectetur adipisicing elit. Reprehenderit quibusdam commodi eos odit accusantium id suscipit
+        provident corporis vel dignissimos.
+    </blockquote>
+
+    <!-- bdo tag -->
+    <bdo dir="rtl">This sentence written using bdo tag</bdo>
 </body>
 
 </html>
