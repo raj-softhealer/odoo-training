@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exercise</title>
+</head>
+<style>
+    #table{
+        display: inline;
+    }
+    table{
+        width: 28%;
+        
+        margin-top: 20px;
+    }
+
+    table,tr,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div><img src="src/img1.jpeg" alt="Incorrect Image Path" width="200px" height="100px"></div>
+
+    <hr>
+    
+    <!-- Link to open in new -->
+    <div><a href=" https://www.google.com/" target="_blank"> google</a></div>
+    <hr>
+    
+    <!-- Hover to show dummy text -->
+    <div>
+        <p title="I am dummy text">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <hr>
+
+    <div>
+        <!-- poem -->
+        <pre>
+My bonni lies over the ocean.
+My Bonnie lies over the sea.
+My Bonnie lies over the ocean.
+Oh, bring back my Bonnie to me.
+    </pre>
+    </div>
+    <hr>
+
+    <!-- Text formatting -->
+
+    <div><strong>Lorem, ipsum.</strong>
+        <p>H<sub>2</sub>O</p>
+        <p><small>I am little</small></p>
+        <p>I am <mark>highlighted</mark> text.</p>
+        <p>My favorite color is <del>Blues</del> Black</p>
+    </div>
+
+    <hr>
+
+    <!-- Abbrevasion -->
+    <p><abbr title="Hyper text markup language">HTML</abbr></p>
+
+    <hr>
+
+    <!-- Table 1 -->
+     <div id="table">
+    <table>
+        <tr>
+            <td rowspan="3">April</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+    </table>
+
+
+    <!-- Table 2 -->
+    <table>
+        <tr>
+            <td colspan="3">2022</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <td rowspan="2" colspan="2">FIESTA</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<hr>
+
+
+<!-- list -->
+ <ol>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+    <li>Five</li>
+ </ol>
+
+ <hr>
+
+
+ <!-- html form -->
+
+ <div>
+    <form action="#">
+        <!-- form -->
+        Firt name: <input type="text"> <br>
+        Last name: <input type="text"> <br> <br><br>
+
+        <input type="radio" value="Html" disabled> HTML <br>
+        <input type="radio" name="CSS"> CSS <br>
+        <input type="radio" name="Javascript">
+        Javascript <br> <br><br>
+
+
+        Choose the car: <select name="" id="">
+            <option value="volvo">Volvo</option>
+            <option value="Saab">Saab</option>
+            <option value="Flat">Flat</option>
+            <option value="Audi">Audi</option>
+        </select> <br> <br> <br>
+        
+        <!-- Textarea -->
+        <textarea rows="5" placeholder="Write here... "></textarea> <br> <br> <br>
+        
+        <!-- File -->
+        Select a file: <input type="file"> <br> <br> <br>
+
+        <!-- Colour -->
+        Select your favorite color: <input  type="color"><br> <br> <br>
+
+        <!-- Quantiy -->
+        Quantity: <input type="number" min="0" max="50"> <br> <br> <br>
+        
+        <!-- date -->
+        Birthday: <input type="date"> <br><br><br>
+
+
+        <!-- Video -->
+         <h6>Video</h6>
+        <video style="border: 2px solid black;" src=""  muted> </video>
+
+
+    </form>
+ </div>
+
+</body>
+
+</html>
